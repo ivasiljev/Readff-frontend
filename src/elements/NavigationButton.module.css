@@ -1,0 +1,17 @@
+:root {
+    --navLinkUnderstrokeWidth: 1.2px;
+    --navLinkTransitionDuration: 0.25s;
+}
+
+.navItem {
+    text-decoration: none;
+    border-bottom: var(--navLinkUnderstrokeWidth) solid rgba(255, 255, 255, 0);
+    transition-duration: var(--navLinkTransitionDuration);
+    transition-timing-function: ease-in;
+
+    color: var(--defaultFontColor);
+}
+
+.navItem:hover {
+    border-bottom: var(--navLinkUnderstrokeWidth) solid var(--defaultFontColor);
+}

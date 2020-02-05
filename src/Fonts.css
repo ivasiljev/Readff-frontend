@@ -1,0 +1,22 @@
+/* 
+    All fonts exist in the app belong here
+*/
+
+/* Font for links in the navigation menu at the top of any page */
+.navigationLinkFont {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.navigationLinkFont:hover {
+    font-size: 26px;
+}
+
+/* Font for the logo in the header */
+.logoFont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}

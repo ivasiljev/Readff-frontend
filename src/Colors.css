@@ -1,0 +1,16 @@
+/*
+    All colors exist in the app belong here
+*/
+
+:root {
+    /* Main background color for elements in the app (for example, navigation menu background) */
+    --backcolor_front: #363537;
+    /* Additional color for elements' background */
+    --backcolor_front2: #323132;
+    /* Global background color (furthest background) */
+    --backcolor_back: #282729;
+    /* Font color for most text */
+    --defaultFontColor: #EAF6FF;
+    /* Font color for logo in the navigation menu at the top of any page */
+    --logoColor: #A77B25;
+}

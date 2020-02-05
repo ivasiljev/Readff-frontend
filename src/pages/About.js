@@ -1,9 +1,11 @@
 import React from 'react';
 
+const About = props => <div className="about" {...props}></div>
+
 export function AboutPage() {
     return (
-    <div className="about">
+    <About>
         <h1>About!</h1>  
-    </div>
+    </About>
     );
 }

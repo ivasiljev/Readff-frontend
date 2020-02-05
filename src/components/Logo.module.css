@@ -1,0 +1,9 @@
+.logo {
+
+}
+
+.logoText {
+    text-align: center;
+
+    color: var(--logoColor);
+}
