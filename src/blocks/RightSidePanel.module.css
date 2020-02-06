@@ -1,0 +1,8 @@
+.rightSidePanel {
+    max-height: 500px;
+    flex-grow: 1;
+    background-color: var(--backcolor_front);
+    border-radius: 0px 0px 0px 5px;
+    border: 1px solid var(--defaultBorderColor);
+    border-width: 0px 0px 1px 1px;
+}

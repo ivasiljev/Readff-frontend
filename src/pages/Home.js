@@ -1,11 +1,17 @@
 import React from 'react';
+import styles from './Home.module.css';
+import { LeftSideProfile } from '../blocks/LeftSideProfile';
+import { RightSideRecomendedArticles } from '../blocks/RightSideRecomendedArticles';
+import { MainSectionArticles } from '../blocks/MainSectionArticles';
 
-const Home = props => <div className="home" {...props}></div>
+const Home = props => <div className={styles.home} {...props}></div>
 
 export function HomePage() {
     return (
     <Home>
-        <h1>Home!</h1>  
+        <LeftSideProfile />
+        <MainSectionArticles />
+        <RightSideRecomendedArticles />
     </Home>
     );
 }
