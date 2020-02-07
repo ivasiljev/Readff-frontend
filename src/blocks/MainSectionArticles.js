@@ -1,8 +1,11 @@
 import React from 'react';
 import styles from './MainSectionPanel.module.css';
+import { SmallArticle } from '../components/MainSection_SmallArticle';
 
-export const MainSectionArticles = () => (
+export const MainSectionArticles = props => (
     <section className={styles.mainSectionPanel}>
-2
+        {props.ArticlesInfo.map((article, id) => {
+            return <SmallArticle key={id} ArticleInfo={article} />
+        })}
     </section>
 )

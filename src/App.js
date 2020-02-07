@@ -10,11 +10,54 @@ import { AboutPage } from './pages/About';
 import { ContactPage } from './pages/Contact';
 import { NotFoundPage } from './pages/NotFoundPage';
 
+const articlesInfo = [
+    {
+        id: 0,
+        author: {
+            name: 'name1',
+            avatar: {
+                img: 'sourcePath1',
+                alt: 'avatarImageName1',
+            }
+        },
+        article: {
+            publicationDate: 'date1',
+            viewsCount: 1,
+            title: 'TITLE1',
+            shortText: 'SomeTextHere1',
+            mainImage: {
+                img: 'sourcePath1',
+                alt: 'articleImageName1',
+            },
+        },
+    },
+    {
+        id: 1,
+        author: {
+            name: 'name2',
+            avatar: {
+                img: 'sourcePath2',
+                alt: 'avatarImageName2',
+            }
+        },
+        article: {
+            publicationDate: 'date2',
+            viewsCount: 2,
+            title: 'TITLE2',
+            shortText: 'SomeTextHere2',
+            mainImage: {
+                img: 'sourcePath2',
+                alt: 'articleImageName2',
+            },
+        },
+    },
+];
+
 const navigationItems = [
     {
         itemName: 'Home',
         path: '/',
-        page: <HomePage />
+        page: <HomePage ArticlesInfo={articlesInfo} />
     },
     {
         itemName: 'Search',
@@ -39,9 +82,9 @@ const PageWrapper = props => <main className='page' {...props}></main>;
 
 // returns <Route> for each item from navigationItem array
 const RoutePages = () => (
-    navigationItems.map(({ path, page }) => {
+    navigationItems.map(({ path, page }, index) => {
         return (
-        <Route exact path={path}>
+        <Route key={index} exact path={path}>
             {page}
         </Route>
         )

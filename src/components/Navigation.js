@@ -8,8 +8,8 @@ const NavMenu = props => <div className={styles.nav} {...props}></div>;
 export function NavLinks(props) {
     return (
     <NavMenu>
-        {props.NavItems.map(item => (
-            <NavButton item={item} />
+        {props.NavItems.map((item, index) => (
+            <NavButton key={index} item={item} />
         ))}
     </NavMenu>
     );

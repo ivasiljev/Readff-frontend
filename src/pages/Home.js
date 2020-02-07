@@ -6,11 +6,11 @@ import { MainSectionArticles } from '../blocks/MainSectionArticles';
 
 const Home = props => <div className={styles.home} {...props}></div>
 
-export function HomePage() {
+export function HomePage(props) {
     return (
     <Home>
         <LeftSideProfile />
-        <MainSectionArticles />
+        <MainSectionArticles ArticlesInfo={props.ArticlesInfo} />
         <RightSideRecomendedArticles />
     </Home>
     );
