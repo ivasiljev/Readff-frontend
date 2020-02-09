@@ -5,4 +5,5 @@
     border: 1px solid var(--defaultBorderColor);
     border-width: 0px 0px 1px 1px;
     width: 20vw;
+    visibility: hidden;
 }

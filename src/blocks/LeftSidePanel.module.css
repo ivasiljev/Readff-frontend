@@ -6,3 +6,11 @@
     border-width: 0px 1px 1px 0px;
     width: 20vw;
 }
+
+.list {
+    list-style: none;
+}
+
+.listItem {
+    text-decoration: none;
+}

@@ -53,11 +53,49 @@ const articlesInfo = [
     },
 ];
 
+const leftPanelProfileNavigationItems = [
+    {
+        itemName: 'My Posts',
+        path: '/myposts',
+        page: <div />
+    },
+    {
+        itemName: 'Messages',
+        path: '/messages',
+        page: <div />
+    },
+    {
+        itemName: 'Notifications',
+        path: '/notifications',
+        page: <div />
+    },
+    {
+        itemName: 'Subscriptions',
+        path: '/subscriptions',
+        page: <div />
+    },
+    {
+        itemName: 'Liked Posts',
+        path: '/likedposts',
+        page: <div />
+    },
+    {
+        itemName: 'Read Later',
+        path: '/readlater',
+        page: <div />
+    },
+    {
+        itemName: 'Library',
+        path: '/library',
+        page: <div />
+    },
+]
+
 const navigationItems = [
     {
         itemName: 'Home',
         path: '/',
-        page: <HomePage ArticlesInfo={articlesInfo} />
+        page: <HomePage ArticlesInfo={articlesInfo} LeftPanelItems={leftPanelProfileNavigationItems} />
     },
     {
         itemName: 'Search',
@@ -81,8 +119,18 @@ const GlobalWrapper = props => <div className='globalWrapper' {...props}></div>
 const PageWrapper = props => <main className='page' {...props}></main>;  
 
 // returns <Route> for each item from navigationItem array
-const RoutePages = () => (
+const RouteNavPages = () => (
     navigationItems.map(({ path, page }, index) => {
+        return (
+        <Route key={index} exact path={path}>
+            {page}
+        </Route>
+        )
+    })
+);
+
+const RouteProfilePages = () => (
+    leftPanelProfileNavigationItems.map(({ path, page }, index) => {
         return (
         <Route key={index} exact path={path}>
             {page}
@@ -98,7 +146,8 @@ export const App = () => (
 
             <PageWrapper>
                 <Switch>
-                    <RoutePages />
+                    <RouteNavPages />
+                    <RouteProfilePages />
                     <Route>
                         <NotFoundPage />
                     </Route>

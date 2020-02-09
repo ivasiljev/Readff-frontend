@@ -9,7 +9,7 @@ const Home = props => <div className={styles.home} {...props}></div>
 export function HomePage(props) {
     return (
     <Home>
-        <LeftSideProfile />
+        <LeftSideProfile NavigationItems={props.LeftPanelItems} />
         <MainSectionArticles ArticlesInfo={props.ArticlesInfo} />
         <RightSideRecomendedArticles />
     </Home>

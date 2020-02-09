@@ -6,4 +6,5 @@
     padding: 1.5vw;
     border-radius: 5px;
     border: 1px solid var(--defaultBorderColor);
+    max-width: 60vw;
 }
