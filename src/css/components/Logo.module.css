@@ -1,0 +1,6 @@
+.logoText {
+    text-align: center;
+    text-shadow: 1px 1px 20px var(--logoTextShadowColor);
+    text-decoration: overline;
+    color: var(--logoColor);
+}

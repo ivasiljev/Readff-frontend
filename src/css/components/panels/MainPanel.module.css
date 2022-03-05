@@ -1,4 +1,4 @@
-.mainSectionPanel {
+.mainPanel {
     min-height: 1000px;
     flex-grow: 1;
     background-color: var(--backcolor_front);
@@ -6,5 +6,4 @@
     padding: 1.5vw;
     border-radius: 5px;
     border: 1px solid var(--defaultBorderColor);
-    max-width: 60vw;
 }

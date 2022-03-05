@@ -1,0 +1,4024 @@
+/* Main */
+
+position: absolute;
+width: 1083px;
+height: 1799px;
+left: 418px;
+top: 85px;
+
+border: 0.3px solid #EAF6FF;
+border-radius: 5px;
+
+
+/* Main back */
+
+position: absolute;
+width: 1085px;
+height: 1800px;
+left: 0px;
+top: -1px;
+
+/* Main color 1 */
+background: #363537;
+
+
+/* Frame 5 */
+
+position: absolute;
+width: 1083px;
+height: 289px;
+left: 0px;
+top: 20px;
+
+
+
+/* Article */
+
+position: absolute;
+width: 1003px;
+height: 264px;
+left: 40px;
+top: 20px;
+
+/* Main color 1 */
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/* Under text */
+
+position: absolute;
+width: 1001px;
+height: 20px;
+left: 41px;
+top: 259px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* Under title */
+
+position: absolute;
+width: 1001px;
+height: 20px;
+left: 41px;
+top: 91px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* tags: #YouTube #UIdesign #myFirstArticle */
+
+position: absolute;
+width: 333px;
+height: 20px;
+left: 682px;
+top: 259px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Categories: YouTube, UI design, Websites */
+
+position: absolute;
+width: 949px;
+height: 20px;
+left: 66px;
+top: 259px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Article text */
+
+position: absolute;
+width: 598px;
+height: 143px;
+left: 66px;
+top: 111px;
+
+/* Article text */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 127.12%;
+/* or 23px */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* views */
+
+position: absolute;
+width: 590px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* 3295 */
+
+position: absolute;
+width: 546px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Lee Fox */
+
+position: absolute;
+width: 105px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* / Jan 21, 2014 */
+
+position: absolute;
+width: 105px;
+height: 20px;
+left: 119px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Sint culpa magna proident dolre */
+
+position: absolute;
+width: 546px;
+height: 32px;
+left: 118px;
+top: 48px;
+
+/* Article title */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+text-transform: capitalize;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* _1CkcNikVuk 2 */
+
+position: absolute;
+width: 52px;
+height: 50px;
+left: 66px;
+top: 39px;
+
+background: url(.png);
+border-radius: 50px;
+
+
+/* Result_Penguins1 1 */
+
+position: absolute;
+width: 333px;
+height: 191px;
+left: 682px;
+top: 44px;
+
+background: url(.jpg);
+filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.4));
+border-radius: 5px;
+
+
+/* Cross */
+
+position: absolute;
+width: 12.73px;
+height: 12.73px;
+left: 1022px;
+top: 27px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 1022px;
+top: 28.41px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(-45deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 1033.31px;
+top: 27px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(45deg);
+
+
+/* Plus */
+
+position: absolute;
+visibility: hidden;
+width: 22px;
+height: 22px;
+left: 531px;
+top: 27px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 534.67px;
+top: 38.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531.92px;
+top: 49px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531.92px;
+top: 28.83px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 541.08px;
+top: 30.67px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 551.17px;
+top: 27.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531px;
+top: 27.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Frame 6 */
+
+position: absolute;
+width: 1083px;
+height: 289px;
+left: 0px;
+top: 309px;
+
+
+
+/* Article */
+
+position: absolute;
+width: 1003px;
+height: 264px;
+left: 40px;
+top: 20px;
+
+/* Main color 1 */
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/* Under text */
+
+position: absolute;
+width: 1001px;
+height: 20px;
+left: 41px;
+top: 259px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* Under title */
+
+position: absolute;
+width: 1001px;
+height: 20px;
+left: 41px;
+top: 91px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* tags: #YouTube #UIdesign #myFirstArticle */
+
+position: absolute;
+width: 333px;
+height: 20px;
+left: 682px;
+top: 259px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Categories: YouTube, UI design, Websites */
+
+position: absolute;
+width: 949px;
+height: 20px;
+left: 66px;
+top: 259px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Article text */
+
+position: absolute;
+width: 598px;
+height: 143px;
+left: 66px;
+top: 111px;
+
+/* Article text */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 127.12%;
+/* or 23px */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* views */
+
+position: absolute;
+width: 590px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* 6157 */
+
+position: absolute;
+width: 546px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Darrell Flores */
+
+position: absolute;
+width: 105px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* / Aug 9, 2019 */
+
+position: absolute;
+width: 105px;
+height: 20px;
+left: 158px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Eu enim commodo ea duis */
+
+position: absolute;
+width: 546px;
+height: 32px;
+left: 118px;
+top: 48px;
+
+/* Article title */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+text-transform: capitalize;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* _1CkcNikVuk 2 */
+
+position: absolute;
+width: 52px;
+height: 50px;
+left: 66px;
+top: 39px;
+
+background: url(.png);
+border-radius: 50px;
+
+
+/* Result_Penguins1 1 */
+
+position: absolute;
+width: 333px;
+height: 191px;
+left: 682px;
+top: 44px;
+
+background: url(.jpg);
+filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.4));
+border-radius: 5px;
+
+
+/* Cross */
+
+position: absolute;
+width: 12.73px;
+height: 12.73px;
+left: 1022px;
+top: 27px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 1022px;
+top: 28.41px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(-45deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 1033.31px;
+top: 27px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(45deg);
+
+
+/* Plus */
+
+position: absolute;
+visibility: hidden;
+width: 22px;
+height: 22px;
+left: 531px;
+top: 27px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 534.67px;
+top: 38.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531.92px;
+top: 49px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531.92px;
+top: 28.83px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 541.08px;
+top: 30.67px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 551.17px;
+top: 27.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531px;
+top: 27.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Frame 7 */
+
+position: absolute;
+width: 1083px;
+height: 289px;
+left: 0px;
+top: 598px;
+
+
+
+/* Article */
+
+position: absolute;
+width: 1003px;
+height: 264px;
+left: 40px;
+top: 20px;
+
+/* Main color 1 */
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/* Under text */
+
+position: absolute;
+width: 1001px;
+height: 20px;
+left: 41px;
+top: 259px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* Under title */
+
+position: absolute;
+width: 1001px;
+height: 20px;
+left: 41px;
+top: 91px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* tags: #YouTube #UIdesign #myFirstArticle */
+
+position: absolute;
+width: 333px;
+height: 20px;
+left: 682px;
+top: 259px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Categories: YouTube, UI design, Websites */
+
+position: absolute;
+width: 949px;
+height: 20px;
+left: 66px;
+top: 259px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Article text */
+
+position: absolute;
+width: 598px;
+height: 143px;
+left: 66px;
+top: 111px;
+
+/* Article text */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 127.12%;
+/* or 23px */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* views */
+
+position: absolute;
+width: 590px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* 5307 */
+
+position: absolute;
+width: 546px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Pat Mckinney */
+
+position: absolute;
+width: 105px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* / Mar 31, 2019 */
+
+position: absolute;
+width: 121px;
+height: 20px;
+left: 156px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* sunt esse pariatur */
+
+position: absolute;
+width: 546px;
+height: 32px;
+left: 118px;
+top: 48px;
+
+/* Article title */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+text-transform: capitalize;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* _1CkcNikVuk 2 */
+
+position: absolute;
+width: 52px;
+height: 50px;
+left: 66px;
+top: 39px;
+
+background: url(.png);
+border-radius: 50px;
+
+
+/* Result_Penguins1 1 */
+
+position: absolute;
+width: 333px;
+height: 191px;
+left: 682px;
+top: 44px;
+
+background: url(.jpg);
+filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.4));
+border-radius: 5px;
+
+
+/* Cross */
+
+position: absolute;
+width: 12.73px;
+height: 12.73px;
+left: 1022px;
+top: 27px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 1022px;
+top: 28.41px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(-45deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 1033.31px;
+top: 27px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(45deg);
+
+
+/* Plus */
+
+position: absolute;
+visibility: hidden;
+width: 22px;
+height: 22px;
+left: 531px;
+top: 27px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 534.67px;
+top: 38.92px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531.92px;
+top: 49px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531.92px;
+top: 28.83px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 541.08px;
+top: 30.67px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 551.17px;
+top: 27.92px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531px;
+top: 27.92px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+
+
+/* Frame 8 */
+
+position: absolute;
+width: 1083px;
+height: 289px;
+left: 0px;
+top: 887px;
+
+
+
+/* Article */
+
+position: absolute;
+width: 1003px;
+height: 264px;
+left: 40px;
+top: 20px;
+
+/* Main color 1 */
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/* Under text */
+
+position: absolute;
+width: 1001px;
+height: 20px;
+left: 41px;
+top: 259px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* Under title */
+
+position: absolute;
+width: 1001px;
+height: 20px;
+left: 41px;
+top: 91px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* tags: #YouTube #UIdesign #myFirstArticle */
+
+position: absolute;
+width: 333px;
+height: 20px;
+left: 682px;
+top: 259px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Categories: YouTube, UI design, Websites */
+
+position: absolute;
+width: 949px;
+height: 20px;
+left: 66px;
+top: 259px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Article text */
+
+position: absolute;
+width: 598px;
+height: 143px;
+left: 66px;
+top: 111px;
+
+/* Article text */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 127.12%;
+/* or 23px */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* views */
+
+position: absolute;
+width: 590px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* 452 */
+
+position: absolute;
+width: 546px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Theresa Steward */
+
+position: absolute;
+width: 116px;
+height: 20px;
+left: 66px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* / Jul 13, 2018 */
+
+position: absolute;
+width: 105px;
+height: 20px;
+left: 182px;
+top: 91px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Do aute dolor deserunt nulla */
+
+position: absolute;
+width: 546px;
+height: 32px;
+left: 118px;
+top: 48px;
+
+/* Article title */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+text-transform: capitalize;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* _1CkcNikVuk 2 */
+
+position: absolute;
+width: 52px;
+height: 50px;
+left: 66px;
+top: 39px;
+
+background: url(.png);
+border-radius: 50px;
+
+
+/* Result_Penguins1 1 */
+
+position: absolute;
+width: 333px;
+height: 191px;
+left: 682px;
+top: 44px;
+
+background: url(.jpg);
+filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.4));
+border-radius: 5px;
+
+
+/* Cross */
+
+position: absolute;
+width: 12.73px;
+height: 12.73px;
+left: 1022px;
+top: 27px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 1022px;
+top: 28.41px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(-45deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 1033.31px;
+top: 27px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(45deg);
+
+
+/* Plus */
+
+position: absolute;
+visibility: hidden;
+width: 22px;
+height: 22px;
+left: 531px;
+top: 27px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 534.67px;
+top: 38.92px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531.92px;
+top: 49px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531.92px;
+top: 28.83px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 541.08px;
+top: 30.67px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 551.17px;
+top: 27.92px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 531px;
+top: 27.92px;
+
+/* Darken text w/o opacity */
+background: #A0A8AD;
+border-radius: 3px;
+
+
+/* Support panel */
+
+position: absolute;
+width: 391px;
+height: 1838px;
+left: 1536px;
+top: 46px;
+
+border: 0.3px solid #EAF6FF;
+border-radius: 5px;
+
+
+/* Support panel back */
+
+position: absolute;
+width: 384px;
+height: 1838px;
+left: 0px;
+top: 0px;
+
+background: #363537;
+
+
+/* Frame 5 */
+
+position: absolute;
+width: 384px;
+height: 385px;
+left: 0px;
+top: 72px;
+
+
+
+/* Article */
+
+position: absolute;
+width: 366px;
+height: 366px;
+left: 9px;
+top: 9px;
+
+/* Main color 1 */
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/* Under title */
+
+position: absolute;
+width: 364.5px;
+height: 20px;
+left: 9.5px;
+top: 132px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* Article text */
+
+position: absolute;
+width: 316px;
+height: 206px;
+left: 34px;
+top: 152px;
+
+/* Article text */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 127.12%;
+/* or 23px */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* views */
+
+position: absolute;
+width: 316px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* 3295 */
+
+position: absolute;
+width: 278px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Lee Fox */
+
+position: absolute;
+width: 105px;
+height: 20px;
+left: 34px;
+top: 106px;
+
+font-family: Georgia;
+font-style: italic;
+font-weight: bold;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Jan 21, 2014 */
+
+position: absolute;
+width: 158px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Sint culpa magna proident dolre */
+
+position: absolute;
+width: 315px;
+height: 64px;
+left: 35px;
+top: 37px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* _1CkcNikVuk 2 */
+
+position: absolute;
+visibility: hidden;
+width: 52px;
+height: 50px;
+left: 35px;
+top: 28px;
+
+background: url(.png);
+border-radius: 50px;
+
+
+/* Cross */
+
+position: absolute;
+width: 12.73px;
+height: 12.73px;
+left: 356px;
+top: 16px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 356px;
+top: 17.41px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(-45deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 367.31px;
+top: 16px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(45deg);
+
+
+/* Plus */
+
+position: absolute;
+visibility: hidden;
+width: 22px;
+height: 22px;
+left: 181px;
+top: 16px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 184.67px;
+top: 27.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181.92px;
+top: 38px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181.92px;
+top: 17.83px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 191.08px;
+top: 19.67px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 201.17px;
+top: 16.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181px;
+top: 16.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 22 */
+
+position: absolute;
+visibility: hidden;
+width: 39px;
+height: 15px;
+left: 35px;
+top: 152px;
+
+background: #C4C4C4;
+
+
+/* Rectangle 21 */
+
+position: absolute;
+visibility: hidden;
+width: 25px;
+height: 33px;
+left: 148px;
+top: 342px;
+
+background: #C4C4C4;
+
+
+/* Frame 6 */
+
+position: absolute;
+width: 384px;
+height: 385px;
+left: 0px;
+top: 457px;
+
+
+
+/* Article */
+
+position: absolute;
+width: 366px;
+height: 366px;
+left: 9px;
+top: 9px;
+
+/* Main color 1 */
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/* Under title */
+
+position: absolute;
+width: 364.5px;
+height: 20px;
+left: 9.5px;
+top: 132px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* Article text */
+
+position: absolute;
+width: 316px;
+height: 206px;
+left: 34px;
+top: 152px;
+
+/* Article text */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 127.12%;
+/* or 23px */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* views */
+
+position: absolute;
+width: 316px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* 452 */
+
+position: absolute;
+width: 278px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Theresa Steward */
+
+position: absolute;
+width: 158px;
+height: 20px;
+left: 34px;
+top: 106px;
+
+font-family: Georgia;
+font-style: italic;
+font-weight: bold;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Jul 13, 2018 */
+
+position: absolute;
+width: 158px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Do aute dolor deserunt nulla */
+
+position: absolute;
+width: 315px;
+height: 64px;
+left: 35px;
+top: 37px;
+
+/* Side article title */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* _1CkcNikVuk 2 */
+
+position: absolute;
+visibility: hidden;
+width: 52px;
+height: 50px;
+left: 35px;
+top: 28px;
+
+background: url(.png);
+border-radius: 50px;
+
+
+/* Cross */
+
+position: absolute;
+width: 12.73px;
+height: 12.73px;
+left: 356px;
+top: 16px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 356px;
+top: 17.41px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(-45deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 367.31px;
+top: 16px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(45deg);
+
+
+/* Plus */
+
+position: absolute;
+visibility: hidden;
+width: 22px;
+height: 22px;
+left: 181px;
+top: 16px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 184.67px;
+top: 27.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181.92px;
+top: 38px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181.92px;
+top: 17.83px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 191.08px;
+top: 19.67px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 201.17px;
+top: 16.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181px;
+top: 16.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 22 */
+
+position: absolute;
+visibility: hidden;
+width: 39px;
+height: 15px;
+left: 35px;
+top: 152px;
+
+background: #C4C4C4;
+
+
+/* Rectangle 21 */
+
+position: absolute;
+visibility: hidden;
+width: 25px;
+height: 33px;
+left: 148px;
+top: 342px;
+
+background: #C4C4C4;
+
+
+/* Frame 7 */
+
+position: absolute;
+width: 384px;
+height: 385px;
+left: 0px;
+top: 842px;
+
+
+
+/* Article */
+
+position: absolute;
+width: 366px;
+height: 366px;
+left: 9px;
+top: 9px;
+
+/* Main color 1 */
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/* Under title */
+
+position: absolute;
+width: 364.5px;
+height: 20px;
+left: 9.5px;
+top: 132px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* Article text */
+
+position: absolute;
+width: 316px;
+height: 206px;
+left: 34px;
+top: 152px;
+
+/* Article text */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 127.12%;
+/* or 23px */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* views */
+
+position: absolute;
+width: 316px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* 6157 */
+
+position: absolute;
+width: 278px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Darrell Flores */
+
+position: absolute;
+width: 129px;
+height: 20px;
+left: 34px;
+top: 106px;
+
+font-family: Georgia;
+font-style: italic;
+font-weight: bold;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Aug 9, 2019 */
+
+position: absolute;
+width: 158px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Eu enim commodo ea duis */
+
+position: absolute;
+width: 315px;
+height: 64px;
+left: 35px;
+top: 37px;
+
+/* Side article title */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* _1CkcNikVuk 2 */
+
+position: absolute;
+visibility: hidden;
+width: 52px;
+height: 50px;
+left: 35px;
+top: 28px;
+
+background: url(.png);
+border-radius: 50px;
+
+
+/* Cross */
+
+position: absolute;
+width: 12.73px;
+height: 12.73px;
+left: 356px;
+top: 16px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 356px;
+top: 17.41px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(-45deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 367.31px;
+top: 16px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(45deg);
+
+
+/* Plus */
+
+position: absolute;
+visibility: hidden;
+width: 22px;
+height: 22px;
+left: 181px;
+top: 16px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 184.67px;
+top: 27.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181.92px;
+top: 38px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181.92px;
+top: 17.83px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 191.08px;
+top: 19.67px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 201.17px;
+top: 16.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181px;
+top: 16.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 22 */
+
+position: absolute;
+visibility: hidden;
+width: 39px;
+height: 15px;
+left: 35px;
+top: 152px;
+
+background: #C4C4C4;
+
+
+/* Rectangle 21 */
+
+position: absolute;
+visibility: hidden;
+width: 25px;
+height: 33px;
+left: 148px;
+top: 342px;
+
+background: #C4C4C4;
+
+
+/* Frame 8 */
+
+position: absolute;
+width: 384px;
+height: 385px;
+left: 0px;
+top: 1227px;
+
+
+
+/* Article */
+
+position: absolute;
+width: 366px;
+height: 366px;
+left: 9px;
+top: 9px;
+
+/* Main color 1 */
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/* Under title */
+
+position: absolute;
+width: 364.5px;
+height: 20px;
+left: 9.5px;
+top: 132px;
+
+/* Main color 2 (Back) */
+background: #323132;
+
+
+/* Article text */
+
+position: absolute;
+width: 316px;
+height: 206px;
+left: 34px;
+top: 152px;
+
+/* Article text */
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 127.12%;
+/* or 23px */
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-indent: 15px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* views */
+
+position: absolute;
+width: 316px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* 3295 */
+
+position: absolute;
+width: 278px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+text-align: right;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Lee Fox */
+
+position: absolute;
+width: 105px;
+height: 20px;
+left: 34px;
+top: 106px;
+
+font-family: Georgia;
+font-style: italic;
+font-weight: bold;
+font-size: 16px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Jan 21, 2014 */
+
+position: absolute;
+width: 158px;
+height: 20px;
+left: 34px;
+top: 132px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+align-items: center;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* Sint culpa magna proident dolre */
+
+position: absolute;
+width: 315px;
+height: 64px;
+left: 35px;
+top: 37px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 32px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* _1CkcNikVuk 2 */
+
+position: absolute;
+visibility: hidden;
+width: 52px;
+height: 50px;
+left: 35px;
+top: 28px;
+
+background: url(.png);
+border-radius: 50px;
+
+
+/* Cross */
+
+position: absolute;
+width: 12.73px;
+height: 12.73px;
+left: 356px;
+top: 16px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 356px;
+top: 17.41px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(-45deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 2px;
+height: 16px;
+left: 367.31px;
+top: 16px;
+
+background: rgba(160, 168, 173, 0.25);
+border-radius: 3px;
+transform: rotate(45deg);
+
+
+/* Plus */
+
+position: absolute;
+visibility: hidden;
+width: 22px;
+height: 22px;
+left: 181px;
+top: 16px;
+
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 184.67px;
+top: 27.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181.92px;
+top: 38px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181.92px;
+top: 17.83px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+transform: rotate(-90deg);
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 1.83px;
+height: 14.67px;
+left: 191.08px;
+top: 19.67px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 201.17px;
+top: 16.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 1.83px;
+height: 20.17px;
+left: 181px;
+top: 16.92px;
+
+background: rgba(160, 168, 173, 0.5);
+border-radius: 3px;
+
+
+/* Rectangle 22 */
+
+position: absolute;
+visibility: hidden;
+width: 39px;
+height: 15px;
+left: 35px;
+top: 152px;
+
+background: #C4C4C4;
+
+
+/* Rectangle 21 */
+
+position: absolute;
+visibility: hidden;
+width: 25px;
+height: 33px;
+left: 148px;
+top: 342px;
+
+background: #C4C4C4;
+
+
+/* Recommendations */
+
+position: absolute;
+width: 384px;
+height: 32px;
+left: 0px;
+top: 40px;
+
+font-family: Georgia;
+font-style: italic;
+font-weight: bold;
+font-size: 26px;
+line-height: 30px;
+text-indent: 16px;
+text-decoration-line: underline;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* Profile panel */
+
+position: absolute;
+width: 393px;
+height: 790px;
+left: -9px;
+top: 43px;
+
+border: 0.3px solid #EAF6FF;
+border-radius: 5px;
+
+
+/* Profile panel back */
+
+position: absolute;
+width: 384px;
+height: 794px;
+left: 8px;
+top: -4px;
+
+background: #363537;
+
+
+/* Navigation */
+
+position: absolute;
+width: 385px;
+height: 531px;
+left: 8px;
+top: 195px;
+
+
+
+/* Library */
+
+position: absolute;
+width: 367.76px;
+height: 27px;
+left: 8px;
+top: 699px;
+
+/* Profile nav */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-indent: 60px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* Read later */
+
+position: absolute;
+width: 367.76px;
+height: 27px;
+left: 8px;
+top: 615px;
+
+/* Profile nav */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-indent: 60px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* Liked posts */
+
+position: absolute;
+width: 367.76px;
+height: 27px;
+left: 8px;
+top: 531px;
+
+/* Profile nav */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-indent: 60px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* Subscriptions-hover */
+
+position: absolute;
+visibility: hidden;
+width: 367.76px;
+height: 27px;
+left: 25.24px;
+top: 447px;
+
+/* Profile nav */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-indent: 60px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* Subscriptions */
+
+position: absolute;
+width: 367.76px;
+height: 27px;
+left: 8px;
+top: 447px;
+
+/* Profile nav */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-indent: 60px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* Notifications */
+
+position: absolute;
+width: 367.76px;
+height: 27px;
+left: 8px;
+top: 363px;
+
+/* Profile nav */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-indent: 60px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* Rectangle 10 */
+
+position: absolute;
+visibility: hidden;
+width: 96.73px;
+height: 2px;
+left: 65.46px;
+top: 310px;
+
+background: #EAF6FF;
+
+
+/* Messages */
+
+position: absolute;
+width: 367.76px;
+height: 27px;
+left: 8px;
+top: 279px;
+
+/* Profile nav */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-indent: 60px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+width: 91.94px;
+height: 2px;
+left: 65.46px;
+top: 226px;
+
+background: #EAF6FF;
+
+
+/* My posts */
+
+position: absolute;
+width: 367.76px;
+height: 27px;
+left: 8px;
+top: 195px;
+
+/* Profile nav */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-indent: 60px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* Profile info */
+
+position: absolute;
+width: 319.34px;
+height: 70px;
+left: 59px;
+top: 67px;
+
+
+
+/* Kyle Nguyen */
+
+position: absolute;
+width: 252.34px;
+height: 70px;
+left: 126px;
+top: 67px;
+
+font-family: Georgia;
+font-style: italic;
+font-weight: bold;
+font-size: 24px;
+line-height: 27px;
+text-indent: 16px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* id: #8235837 */
+
+position: absolute;
+width: 252.34px;
+height: 23px;
+left: 126px;
+top: 102px;
+
+font-family: Verdana;
+font-style: italic;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-indent: 16px;
+
+/* Darker text */
+color: rgba(234, 246, 255, 0.6);
+
+
+
+/* _1CkcNikVuk 1 */
+
+position: absolute;
+width: 70px;
+height: 70px;
+left: 59px;
+top: 67px;
+
+background: url(.png);
+border-radius: 50px;
+
+
+/* Rectangle 27 */
+
+position: absolute;
+width: 115px;
+height: 29px;
+left: 58px;
+top: 193px;
+
+
+
+/* Rectangle 30 */
+
+position: absolute;
+width: 106px;
+height: 25px;
+left: 67px;
+top: 281px;
+
+
+
+/* Navigation panel */
+
+position: absolute;
+width: 1920px;
+height: 70px;
+left: 0px;
+top: 0px;
+
+
+
+/* Nav bar */
+
+position: absolute;
+width: 1920px;
+height: 50px;
+left: 0px;
+top: 0px;
+
+/* Main color 1 */
+background: #363537;
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+
+
+/* Readff */
+
+position: absolute;
+width: 189px;
+height: 43px;
+left: 99px;
+top: 0px;
+
+
+
+/* Rectangle 8 */
+
+position: absolute;
+visibility: hidden;
+width: 189px;
+height: 35px;
+left: 99px;
+top: 8px;
+
+background: #598354;
+
+
+/* Readff */
+
+position: absolute;
+width: 189px;
+height: 43px;
+left: 99px;
+top: 0px;
+
+/* Logo */
+font-family: Niramit;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.32em;
+
+/* LOGO */
+color: #A77B25;
+
+
+
+/* Navigation */
+
+position: absolute;
+width: 660px;
+height: 50px;
+left: 1161px;
+top: 0px;
+
+
+
+/* Contact link */
+
+position: absolute;
+width: 150px;
+height: 50px;
+left: 1671px;
+top: 0px;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+width: 82px;
+height: 2px;
+left: 1705px;
+top: 39px;
+
+background: #EAF6FF;
+
+
+/* Contact */
+
+position: absolute;
+width: 150px;
+height: 50px;
+left: 1671px;
+top: 0px;
+
+/* Navigation */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #EAF6FF;
+
+
+
+/* About link */
+
+position: absolute;
+width: 150px;
+height: 50px;
+left: 1501px;
+top: 0px;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+width: 64px;
+height: 2px;
+left: 1544px;
+top: 39px;
+
+background: #EAF6FF;
+
+
+/* About */
+
+position: absolute;
+width: 150px;
+height: 50px;
+left: 1501px;
+top: 0px;
+
+/* Navigation */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #EAF6FF;
+
+
+
+/* Search link */
+
+position: absolute;
+width: 150px;
+height: 50px;
+left: 1331px;
+top: 0px;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+width: 72px;
+height: 2px;
+left: 1370px;
+top: 39px;
+
+background: #EAF6FF;
+
+
+/* Search */
+
+position: absolute;
+width: 150px;
+height: 50px;
+left: 1331px;
+top: 0px;
+
+/* Navigation */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #EAF6FF;
+
+
+
+/* Home link */
+
+position: absolute;
+width: 150px;
+height: 50px;
+left: 1161px;
+top: 0px;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+visibility: hidden;
+width: 66px;
+height: 2px;
+left: 1203px;
+top: 39px;
+
+background: #EAF6FF;
+
+
+/* Home */
+
+position: absolute;
+width: 150px;
+height: 50px;
+left: 1161px;
+top: 0px;
+
+/* Navigation */
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #EAF6FF;
+
+
+
+/* Search icon */
+
+position: absolute;
+width: 50px;
+height: 50px;
+left: 1050px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 26%;
+right: 24%;
+top: 24%;
+bottom: 26%;
+
+background: #EAF6FF;
+
+
+/* Vector--hover */
+
+position: absolute;
+visibility: hidden;
+left: 22%;
+right: 22%;
+top: 22%;
+bottom: 22%;
+
+background: #EAF6FF;
+
+
+/* Search button */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Search box */
+
+position: absolute;
+width: 659px;
+height: 32px;
+left: 391px;
+top: 9px;
+
+background: #EAF6FF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+/* Rectangle 26 */
+
+position: absolute;
+visibility: hidden;
+width: 1920px;
+height: 2169px;
+left: 0px;
+top: 0px;
+
+background: rgba(0, 0, 0, 0.7);
+
+
+/* Plus clicked */
+
+position: absolute;
+visibility: hidden;
+width: 384px;
+height: 143px;
+left: 750px;
+top: 137px;
+
+
+
+/* back */
+
+position: absolute;
+width: 384px;
+height: 143px;
+left: 750px;
+top: 137px;
+
+/* Main color 1 */
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/* Button 1 */
+
+position: absolute;
+width: 152px;
+height: 25px;
+left: 772px;
+top: 241px;
+
+
+
+/* button back */
+
+position: absolute;
+width: 152px;
+height: 25px;
+left: 772px;
+top: 241px;
+
+/* Main color 1 */
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/* Cancel */
+
+position: absolute;
+width: 152px;
+height: 25px;
+left: 772px;
+top: 241px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* LOGO */
+color: #A77B25;
+
+
+
+/* Button 2 */
+
+position: absolute;
+width: 152px;
+height: 25px;
+left: 959px;
+top: 241px;
+
+
+
+/* button back */
+
+position: absolute;
+width: 152px;
+height: 25px;
+left: 959px;
+top: 241px;
+
+/* Main color 1 */
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+border-radius: 5px;
+
+
+/* Save */
+
+position: absolute;
+width: 152px;
+height: 25px;
+left: 959px;
+top: 241px;
+
+font-family: Verdana;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+
+/* LOGO */
+color: #A77B25;
+
+
+
+/* Save: */
+
+position: absolute;
+width: 57px;
+height: 27px;
+left: 768px;
+top: 144px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 27px;
+display: flex;
+align-items: center;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* Read later */
+
+position: absolute;
+width: 109px;
+height: 21px;
+left: 768px;
+top: 177px;
+
+
+
+/* Read later */
+
+position: absolute;
+width: 94px;
+height: 21px;
+left: 783px;
+top: 177px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+text-indent: 12px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* radio */
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 768px;
+top: 181px;
+
+background: #EAF6FF;
+border: 1px solid rgba(0, 0, 0, 0.35);
+box-sizing: border-box;
+box-shadow: inset 0px 0px 4px #000000;
+
+
+/* mark */
+
+position: absolute;
+width: 8px;
+height: 8px;
+left: 771.5px;
+top: 184.5px;
+
+background: rgba(0, 0, 0, 0.5);
+
+
+/* Library */
+
+position: absolute;
+width: 356px;
+height: 44px;
+left: 768px;
+top: 188px;
+
+
+
+/* Library: */
+
+position: absolute;
+width: 94px;
+height: 21px;
+left: 783px;
+top: 206px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+text-indent: 12px;
+
+/* Text color */
+color: #EAF6FF;
+
+
+
+/* radio */
+
+position: absolute;
+width: 15px;
+height: 15px;
+left: 768px;
+top: 210px;
+
+background: #EAF6FF;
+border: 1px solid rgba(0, 0, 0, 0.35);
+box-sizing: border-box;
+box-shadow: inset 0px 0px 4px #000000;
+
+
+/* item 1 */
+
+position: absolute;
+width: 302px;
+height: 44px;
+left: 822px;
+top: 188px;
+
+
+
+/* Subitems */
+
+position: absolute;
+width: 255px;
+height: 94px;
+left: 40px;
+top: 20px;
+
+
+
+/* subitems back */
+
+position: absolute;
+width: 255px;
+height: 94px;
+left: 40px;
+top: 20px;
+
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+/* Subitem 1 */
+
+position: absolute;
+width: 241px;
+height: 18px;
+left: 48px;
+top: 43px;
+
+
+
+/* item back */
+
+position: absolute;
+width: 241px;
+height: 18px;
+left: 48px;
+top: 43px;
+
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+/* Snakes */
+
+position: absolute;
+width: 224px;
+height: 18px;
+left: 57px;
+top: 43px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #EAF6FF;
+
+
+
+/* Subitem 2 */
+
+position: absolute;
+width: 241px;
+height: 18px;
+left: 48px;
+top: 66px;
+
+
+
+/* item back */
+
+position: absolute;
+width: 241px;
+height: 18px;
+left: 48px;
+top: 66px;
+
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+/* America */
+
+position: absolute;
+width: 224px;
+height: 18px;
+left: 57px;
+top: 66px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #EAF6FF;
+
+
+
+/* Subitem 3 */
+
+position: absolute;
+width: 241px;
+height: 18px;
+left: 48px;
+top: 89px;
+
+
+
+/* item back */
+
+position: absolute;
+width: 241px;
+height: 18px;
+left: 48px;
+top: 89px;
+
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+/* Brand Michal recommendations */
+
+position: absolute;
+width: 224px;
+height: 18px;
+left: 57px;
+top: 89px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #EAF6FF;
+
+
+
+/* item back */
+
+position: absolute;
+width: 255px;
+height: 18px;
+left: 40px;
+top: 20px;
+
+background: #363537;
+border: 0.3px solid #EAF6FF;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+
+/* Funny articles */
+
+position: absolute;
+width: 224px;
+height: 18px;
+left: 62px;
+top: 20px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #EAF6FF;
+
+
+
+/* arrow */
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 48px;
+top: 25px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.34%;
+right: 8.33%;
+top: 20.83%;
+bottom: 16.66%;
+
+background: #EAF6FF;

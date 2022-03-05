@@ -1,7 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import styles from './NavigationButton.module.css';
+import styles from '../css/elements/NavigationButton.module.css';
 
 export const NavButton = (props) => (
-    <NavLink exact={true} className={`navigationLinkFont ${styles.navItem}`} to={props.item.path}>{props.item.itemName}</NavLink>
+    <div className='nav-item'>
+        <NavLink activeClassName={`${styles.active}`} exact={true} className={`navigationLinkFont ${styles.navItem}`} to={props.path}>{props.name}</NavLink>
+    </div>
 );

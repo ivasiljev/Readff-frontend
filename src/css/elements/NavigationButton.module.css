@@ -4,6 +4,7 @@
 }
 
 .navItem {
+    margin: 0 1.5vw;
     text-decoration: none;
     border-bottom: var(--navLinkUnderstrokeWidth) solid rgba(255, 255, 255, 0);
     transition-duration: var(--navLinkTransitionDuration);
@@ -14,4 +15,8 @@
 
 .navItem:hover {
     border-bottom: var(--navLinkUnderstrokeWidth) solid var(--defaultFontColor);
+}
+
+.active {
+    text-shadow: 1px 1px 20px var(--logoTextShadowColor);
 }

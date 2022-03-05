@@ -1,15 +1,38 @@
 import React from 'react';
-import styles from './Navigation.module.css';
+import styles from '../css/components/Navigation.module.css';
 
 import { NavButton } from '../elements/NavigationButton';
 
-const NavMenu = props => <div className={styles.nav} {...props}></div>;
+const navItems = [
+    {
+        key: 'home',
+        path: '/',
+        itemName: 'Home',
+    },
+    {
+        key: 'search',
+        path: '/search',
+        itemName: 'Search',
+    },
+    {
+        key: 'about',
+        path: '/about',
+        itemName: 'About',
+    },
+    {
+        key: 'contact',
+        path: '/contact',
+        itemName: 'Contact',
+    }
+]
 
-export function NavLinks(props) {
+const NavMenu = props => ( <div className={`navbar-nav ${styles.nav}`} {...props}></div> )
+
+export function Navigation() {
     return (
     <NavMenu>
-        {props.NavItems.map((item, index) => (
-            <NavButton key={index} item={item} />
+        {navItems.map((item, _) => (
+            <NavButton key={item.key} path={item.path} name={item.itemName} />
         ))}
     </NavMenu>
     );

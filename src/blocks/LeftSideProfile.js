@@ -1,48 +1,51 @@
 import React from 'react';
-import styles from './LeftSidePanel.module.css';
+import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
+import { ProfileLinks } from '../components/ProfileNavigation';
+import { LoginForm } from './LoginForm';
 
-const Top = props => <div {...props}></div>
+const UserProfileInfo = props => (
+    <div {...props}>
+        <img src='src' alt='avatar'></img>
+        <div>
+            <NavLink to='/profile'>Name</NavLink>
+            <br></br>
+            <span>id: 12312414</span>
+        </div>
+    </div>
+)
 
-export const LeftSideProfile = (props) => {
-    return (
-    <aside className={styles.leftSidePanel}>
-        <Top>
-            <img src='src' alt='avatar'></img>
-            <div>
-                <NavLink to='/profile'>Name</NavLink>
-                <br></br>
-                <span>id: 12312414</span>
+const Auth = () => (
+    <div className='row justify-content-center'>
+        <Link to='/login' className='col-7 btn btn-primary mt-4'>Sign in</Link>
+        <Link to='/registrate' className='col-7 btn btn-primary mt-4'>Sign up</Link>
+    </div>
+)
+
+export class LeftSideProfile extends React.Component {
+    constructor(props) {
+        super(props);
+        this.signinclicked = this.signinclicked.bind(this);
+        this.state = {isLoggedIn: false,
+                      props: props};
+    }
+    signinclicked() {
+        this.setState({isLoggedIn: true});
+    }
+  
+    render() {
+        const isLoggedIn = this.state.isLoggedIn;
+        return (
+            <div {...this.state.props}>
+                {isLoggedIn ?
+                    <div>
+                        <UserProfileInfo />
+                        <ProfileLinks />
+                    </div>
+                :
+                    <Auth />   
+                }
             </div>
-        </Top>
-        <ol className={styles.list}>
-            {props.NavigationItems.map((item) => (
-                <li>
-                    <NavLink to={item.path}>{item.itemName}</NavLink>
-                </li>
-            ))}
-            {/* <li>
-                <NavLink className={styles.listItem} to='/myposts'>My Posts</NavLink>
-            </li>
-            <li>
-                <NavLink to='/messages'>Messages</NavLink>
-            </li>
-            <li>
-                <NavLink to='/notifications'>Notifications</NavLink>
-            </li>
-            <li>
-                <NavLink to='/subscriptions'>Subscriptions</NavLink>
-            </li>
-            <li>
-                <NavLink to='/likedposts'>Liked Posts</NavLink>
-            </li>
-            <li>
-                <NavLink to='/readlater'>Read Later</NavLink>
-            </li>
-            <li>
-                <NavLink to='/library'>Library</NavLink>
-            </li> */}
-        </ol>
-    </aside>
-    )
+        );
+    }
 }

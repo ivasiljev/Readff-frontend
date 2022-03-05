@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './FastSearch.module.css';
+import styles from '../css/components/FastSearch.module.css';
 import search from '../img/search.jpg'
 
 export const FastSearch = () => (

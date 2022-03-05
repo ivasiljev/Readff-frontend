@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './MainSection_SmallArticle.module.css';
+import styles from '../css/components/MainSection_SmallArticle.module.css';
 
 const LeftSidedContent = props => <div {...props}></div>
 const RightSidedContent = props => <figure {...props}></figure>
