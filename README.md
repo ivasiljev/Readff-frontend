@@ -1,2 +1,2 @@
 # Readff
-My website (HTML, SCSS, JS, React + Redux)
+My website (HTML, JS, React + Redux, axios)
