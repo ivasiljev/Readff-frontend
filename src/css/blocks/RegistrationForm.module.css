@@ -1,0 +1,34 @@
+.formReg {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.formReg a {
+    font-size: large;
+}
+
+.formReg .checkbox {
+    font-weight: 400;
+}
+
+.formSignformRegIn .form-floating:focus-within {
+    z-index: 2;
+}
+
+.email {
+    color: #202020;
+}
+
+.password {
+    color: #202020;
+}
+
+.passwordConfirm {
+    color: #202020;
+}
+
+.login {
+    color: #202020;
+}
