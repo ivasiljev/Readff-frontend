@@ -3,7 +3,7 @@ import { LoginForm } from '../blocks/LoginForm';
 import { MainPanel } from '../components/panels/MainPanel';
 
 
-export function Login(props) {
+export function LoginPage(props) {
     return (
         <MainPanel>
             <LoginForm />

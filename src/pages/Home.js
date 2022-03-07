@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from '../css/pages/Home.module.css';
 import { LeftSidePanel } from '../components/panels/LeftSidePanel';
 import { LeftSideProfile } from '../blocks/LeftSideProfile';
 import { RightSideRecomendedArticles } from '../blocks/RightSideRecomendedArticles';
@@ -7,7 +6,7 @@ import { MainSectionArticles } from '../blocks/MainSectionArticles';
 import { MainPanel } from '../components/panels/MainPanel';
 import { RightSidePanel } from '../components/panels/RightSidePanel';
 
-const Home = props => <div className={styles.home} {...props}></div>
+const Home = props => <div className='page' {...props}></div>
 
 export function HomePage(props) {
     return (
@@ -16,7 +15,7 @@ export function HomePage(props) {
             <LeftSideProfile />
         </LeftSidePanel>
         <MainPanel>
-            <MainSectionArticles ArticlesInfo={props.ArticlesInfo} />
+            <MainSectionArticles />
         </MainPanel>
         <RightSidePanel>
             <RightSideRecomendedArticles />

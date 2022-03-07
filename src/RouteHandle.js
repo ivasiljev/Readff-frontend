@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import { Login } from './pages/Login';
-import { Registration } from './pages/Registration';
+import { LoginPage } from './pages/Login';
+import { RegistrationPage } from './pages/Registration';
 
 import { HomePage } from './pages/Home';
 import { SearchPage } from './pages/Search';
@@ -11,12 +11,13 @@ import { ContactPage } from './pages/Contact';
 import { NotFoundPage } from './pages/NotFoundPage';
 
 import { MyPostsPage } from './pages/MyPosts';
+import { ArticlePage } from './pages/Article';
 
 const routeItems = [
     {
         key: 'home',
         path: '/',
-        page: (props) => <HomePage ArticlesInfo={props.ArticlesInfo} />
+        page: (props) => <HomePage />
     },
     {
         key: 'search',
@@ -71,13 +72,18 @@ const routeItems = [
     {
         key: 'login',
         path: '/login',
-        page: (props) => <Login />
+        page: (props) => <LoginPage />
     },
     {
         key: 'registration',
         path: '/registration',
-        page: (props) => <Registration />
+        page: (props) => <RegistrationPage />
     },
+    {
+        key: 'article',
+        path: '/article',
+        page: (props) => <ArticlePage />
+    }
 ]
 
 export const RouteHandle = (props) => (
