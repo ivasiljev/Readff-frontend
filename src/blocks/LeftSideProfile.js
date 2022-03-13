@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
+
 import { ProfileLinks } from '../components/ProfileNavigation';
 import { LoginForm } from './LoginForm';
+import { useKeycloak } from '@react-keycloak/web';
 
 const UserProfileInfo = props => (
     <div {...props}>
@@ -15,37 +16,29 @@ const UserProfileInfo = props => (
     </div>
 )
 
-const Auth = () => (
+const Auth = (props) => {
+    return (
     <div className='row justify-content-center'>
-        <Link to='/login' className='col-7 btn btn-primary mt-4'>Sign in</Link>
-        <Link to='/registrate' className='col-7 btn btn-primary mt-4'>Sign up</Link>
-    </div>
-)
+        <button type="button" className='col-7 btn btn-primary mt-5' onClick={() => props.keycloak.login()}>Log in</button>
+        <button type="button" className='col-7 btn btn-primary mt-4' onClick={() => props.keycloak.register()}>Sign up</button>
+    </div>)
+}
 
-export class LeftSideProfile extends React.Component {
-    constructor(props) {
-        super(props);
-        this.signinclicked = this.signinclicked.bind(this);
-        this.state = {isLoggedIn: false,
-                      props: props};
-    }
-    signinclicked() {
-        this.setState({isLoggedIn: true});
-    }
-  
-    render() {
-        const isLoggedIn = this.state.isLoggedIn;
-        return (
-            <div {...this.state.props}>
-                {isLoggedIn ?
-                    <div>
-                        <UserProfileInfo />
-                        <ProfileLinks />
-                    </div>
-                :
-                    <Auth />   
-                }
-            </div>
-        );
-    }
+export const LeftSideProfile = (props) => {
+    const { keycloak, initialized } = useKeycloak();
+
+    const isLoggedIn = keycloak.authenticated;
+
+    return (
+        <div {...props}>
+            {isLoggedIn ?
+                <div>
+                    <UserProfileInfo />
+                    <ProfileLinks />
+                </div>
+            :
+                <Auth keycloak={keycloak} />   
+            }
+        </div>
+    );
 }

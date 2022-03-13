@@ -1,21 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import { useKeycloak } from '@react-keycloak/web';
+import React, { useState } from 'react';
 import { SmallArticle } from '../components/MainSection_SmallArticle';
 import ArticleService from '../services/ArticleService';
 
 export const MainSectionArticles = () => {
-    
+    const { keycloak, initialized } = useKeycloak()
+    const [data, setData] = useState({articlesInfo: [], articlesInit: false})
 
-    const [ArticlesInfo, setArticle] = useState([])
+    const token = keycloak.token;
 
-    useEffect(() => {
+    if (!data.articlesInit) {
         ArticleService.getAllArticles().then((result) => {
-            setArticle(result.data);
+            setData({articlesInfo: result.data, articlesInit: true})
         }).catch(error => { 
+            setData({articlesInfo: {}, articlesInit: true})
             console.log(error)
         })
-    }, [])
+    }
 
-    const content = (ArticlesInfo.map((article, id) => {
+    const content = (data.articlesInfo.map((article, id) => {
         return <SmallArticle key={id} ArticleInfo={article} />
     }));
 

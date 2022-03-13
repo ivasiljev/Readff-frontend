@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import { useKeycloak } from '@react-keycloak/web';
 
 import { LoginPage } from './pages/Login';
 import { RegistrationPage } from './pages/Registration';
@@ -12,6 +13,16 @@ import { NotFoundPage } from './pages/NotFoundPage';
 
 import { MyPostsPage } from './pages/MyPosts';
 import { ArticlePage } from './pages/Article';
+
+const AuthenticatedOnlyPage = (props) => {
+    const { keycloak } = useKeycloak();
+    let content = <div></div>
+    if (keycloak.authenticated)
+        content = <div {...props}></div>
+    else
+        content = <div>Only authorized users allowed to visit this page</div>
+    return content
+}
 
 const routeItems = [
     {
@@ -37,37 +48,37 @@ const routeItems = [
     {
         key: 'myposts',
         path: '/user/:id/posts',
-        page: (props) => <MyPostsPage />,
+        page: (props) => <AuthenticatedOnlyPage><MyPostsPage /></AuthenticatedOnlyPage>,
     },
     {
         key: 'messages',
         path: '/user/:id/messages',
-        page: (props) => <NotFoundPage />,
+        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
     },
     {
         key: 'notifications',
         path: '/user/:id/notifications',
-        page: (props) => <NotFoundPage />,
+        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
     },
     {
         key: 'subscriptions',
         path: '/user/:id/subscriptions',
-        page: (props) => <NotFoundPage />,
+        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
     },
     {
         key: 'likes',
         path: '/user/:id/library/likes',
-        page: (props) => <NotFoundPage />,
+        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
     },
     {
         key: 'readlater',
         path: '/user/:id/library/readlater',
-        page: (props) => <NotFoundPage />,
+        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
     },
     {
         key: 'library',
         path: '/user/:id/library',
-        page: (props) => <NotFoundPage />,
+        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
     },
     {
         key: 'login',
@@ -82,11 +93,12 @@ const routeItems = [
     {
         key: 'article',
         path: '/article',
-        page: (props) => <ArticlePage />
+        page: (props) => <AuthenticatedOnlyPage><ArticlePage /></AuthenticatedOnlyPage>
     }
 ]
 
-export const RouteHandle = (props) => (
+export const RouteHandle = (props) => {
+    return(
     <Switch>
         {
             routeItems.map((route) => (
@@ -98,5 +110,5 @@ export const RouteHandle = (props) => (
         <Route>
             <NotFoundPage />
         </Route>
-    </Switch>
-)
+    </Switch>)
+}

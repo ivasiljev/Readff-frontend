@@ -4,6 +4,7 @@ import { LeftSideProfile } from '../blocks/LeftSideProfile';
 import { MainPanel } from '../components/panels/MainPanel';
 import { MainSectionNewArticle } from '../blocks/MainSectionNewArticle';
 import { RightSidePanel } from '../components/panels/RightSidePanel';
+import { useKeycloak } from '@react-keycloak/web';
 
 const Article = props => <div className='page' {...props}></div>
 

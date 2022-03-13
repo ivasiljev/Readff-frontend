@@ -9,6 +9,11 @@ var navigationItems = [
         path: '/user/:id/posts'
     },
     {
+        key: 'New post',
+        text: 'New post',
+        path: '/article'
+    },
+    {
         key: 'messages',
         text: 'Messages',
         path: '/user/:id/messages'

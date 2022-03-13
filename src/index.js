@@ -6,9 +6,13 @@ import './css/GlobalConsts.css';
 import './css/index.css';
 import { App } from './App';
 import * as serviceWorker from './serviceWorker';
+import { ReactKeycloakProvider } from '@react-keycloak/web';
+import keycloak from './Keycloak';
 
 ReactDOM.render(
-    <App />,
+    <ReactKeycloakProvider authClient={keycloak}>
+        <App />
+    </ReactKeycloakProvider>,
     document.getElementById('root')
 )
 
