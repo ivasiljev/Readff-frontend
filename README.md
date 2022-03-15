@@ -1,5 +1,4 @@
 # Readff
-My website (HTML, JS, React + Redux, axios)
 
 It is the frontend for RESTful Web application.
 ### Used technologies:
