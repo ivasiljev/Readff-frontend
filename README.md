@@ -1,7 +1,7 @@
 # Readff
 My website (HTML, JS, React + Redux, axios)
 
-It is frontend for RESTful Web application.
+It is the frontend for RESTful Web application.
 ### Used technologies:
 - *HTML, CSS, React.js* - Core of my application
 - *React routers* used for navigation between pages of website
