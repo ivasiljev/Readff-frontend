@@ -1,51 +1,62 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+
+import styles from '../css/blocks/LeftSideProfile.module.css';
+
 import { ProfileLinks } from '../components/ProfileNavigation';
 import { LoginForm } from './LoginForm';
+import { useKeycloak } from '@react-keycloak/web';
 
-const UserProfileInfo = props => (
-    <div {...props}>
-        <img src='src' alt='avatar'></img>
-        <div>
-            <NavLink to='/profile'>Name</NavLink>
-            <br></br>
-            <span>id: 12312414</span>
+const UserProfileInfo = props => {
+    const userInfo = props.user;
+
+    return (
+    <div className='d-flex flex-row m-4' {...props}>
+        <NavLink className={`p-0`} to='/:id'>
+            <img className={`img-fluid ${styles.avatar}`} src={userInfo.attributes?.picture} alt='avatar'></img>
+        </NavLink>
+        <div className='ms-3'>
+            <h4 className='m-0 mt-2'>{`${userInfo.firstName} ${userInfo.lastName}`}</h4>
+            <NavLink className={`h6 text-muted`} to='/:id'><small>{userInfo.username}</small></NavLink>
         </div>
-    </div>
-)
+    </div>)
+}
 
-const Auth = () => (
+const Auth = (props) => {
+    return (
     <div className='row justify-content-center'>
-        <Link to='/login' className='col-7 btn btn-primary mt-4'>Sign in</Link>
-        <Link to='/registrate' className='col-7 btn btn-primary mt-4'>Sign up</Link>
-    </div>
-)
+        <button type="button" className='col-7 btn btn-primary mt-5' onClick={() => props.keycloak.login()}>Log in</button>
+        <button type="button" className='col-7 btn btn-primary mt-4' onClick={() => props.keycloak.register()}>Sign up</button>
+    </div>)
+}
 
-export class LeftSideProfile extends React.Component {
-    constructor(props) {
-        super(props);
-        this.signinclicked = this.signinclicked.bind(this);
-        this.state = {isLoggedIn: false,
-                      props: props};
+export const LeftSideProfile = (props) => {
+    const { keycloak, initialized } = useKeycloak()
+    const [ user, setUser] = useState({userInfo: {}, initialized: false})
+
+    const isLoggedIn = keycloak.authenticated
+
+    if (isLoggedIn && !user.initialized) {
+        if (!keycloak.profile)
+            keycloak.loadUserProfile().then(profile => setUser({userInfo: profile, initialized: true}))
+        else 
+            setUser({userInfo: keycloak.profile, initialized: true})
     }
-    signinclicked() {
-        this.setState({isLoggedIn: true});
+    
+    if (user.initialized) {
+        console.log('User info: ', user.userInfo)
     }
-  
-    render() {
-        const isLoggedIn = this.state.isLoggedIn;
-        return (
-            <div {...this.state.props}>
-                {isLoggedIn ?
-                    <div>
-                        <UserProfileInfo />
-                        <ProfileLinks />
-                    </div>
-                :
-                    <Auth />   
-                }
-            </div>
-        );
-    }
+    
+    return (
+        <div {...props}>
+            {isLoggedIn ?
+                <>
+                    <UserProfileInfo user={user.userInfo} />
+                    <ProfileLinks />
+                </>
+            :
+                <Auth keycloak={keycloak} />   
+            }
+        </div>
+    );
 }

@@ -4,15 +4,14 @@ import { LeftSideProfile } from '../blocks/LeftSideProfile';
 import { MainPanel } from '../components/panels/MainPanel';
 import { MainSectionNewArticle } from '../blocks/MainSectionNewArticle';
 import { RightSidePanel } from '../components/panels/RightSidePanel';
-
-const Article = props => <div className='page' {...props}></div>
+import { useKeycloak } from '@react-keycloak/web';
 
 export function ArticlePage(props) {
     return (
-    <Article>
+    <>
         <MainPanel>
             <MainSectionNewArticle />
         </MainPanel>
-    </Article>
+    </>
     );
 }

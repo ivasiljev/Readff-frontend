@@ -1,5 +1,4 @@
 import React from 'react';
-import { useStore } from 'react-redux';
 import styles from '../css/components/MainSection_SmallArticle.module.css';
 
 const LeftSidedContent = props => <div {...props}></div>
