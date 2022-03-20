@@ -1,6 +1,7 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, useHistory, Redirect } from 'react-router-dom';
 import { useKeycloak } from '@react-keycloak/web';
+import { generatePath } from "react-router";
 
 import { LoginPage } from './pages/Login';
 import { RegistrationPage } from './pages/Registration';
@@ -11,18 +12,9 @@ import { AboutPage } from './pages/About';
 import { ContactPage } from './pages/Contact';
 import { NotFoundPage } from './pages/NotFoundPage';
 
+import { UserProfile } from './pages/UserProfile';
 import { MyPostsPage } from './pages/MyPosts';
 import { ArticlePage } from './pages/Article';
-
-const AuthenticatedOnlyPage = (props) => {
-    const { keycloak } = useKeycloak();
-    let content = <div></div>
-    if (keycloak.authenticated)
-        content = <div {...props}></div>
-    else
-        content = <div>Only authorized users allowed to visit this page</div>
-    return content
-}
 
 const routeItems = [
     {
@@ -46,39 +38,92 @@ const routeItems = [
         page: (props) => <ContactPage />,
     },
     {
+        key: 'profile',
+        path: '/:id',
+        page: (props) => 
+            <PathWithIdHandle {...props}>
+                <UserProfile />
+            </PathWithIdHandle>,
+    },
+    {
         key: 'myposts',
-        path: '/user/:id/posts',
-        page: (props) => <AuthenticatedOnlyPage><MyPostsPage /></AuthenticatedOnlyPage>,
+        path: '/:id/posts',
+        page: (props) => 
+            <AuthenticatedOnlyPage {...props}>
+                <PathWithIdHandle {...props}>
+                    <MyPostsPage />
+                </PathWithIdHandle>
+            </AuthenticatedOnlyPage>,
+    },
+    {
+        key: 'article',
+        path: '/:id/article',
+        page: (props) => 
+            <AuthenticatedOnlyPage {...props}>
+                <PathWithIdHandle {...props}>
+                    <ArticlePage />
+                </PathWithIdHandle>
+            </AuthenticatedOnlyPage>
     },
     {
         key: 'messages',
-        path: '/user/:id/messages',
-        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
+        path: '/:id/messages',
+        page: (props) => 
+            <AuthenticatedOnlyPage {...props}>
+                <PathWithIdHandle {...props}>
+                    <NotFoundPage />
+                </PathWithIdHandle>
+            </AuthenticatedOnlyPage>,
     },
     {
         key: 'notifications',
-        path: '/user/:id/notifications',
-        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
+        path: '/:id/notifications',
+        page: (props) => 
+            <AuthenticatedOnlyPage {...props}>
+                <PathWithIdHandle {...props}>
+                    <NotFoundPage />
+                </PathWithIdHandle>
+            </AuthenticatedOnlyPage>,
     },
     {
         key: 'subscriptions',
-        path: '/user/:id/subscriptions',
-        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
+        path: '/:id/subscriptions',
+        page: (props) => 
+            <AuthenticatedOnlyPage {...props}>
+                <PathWithIdHandle {...props}>
+                    <NotFoundPage />
+                </PathWithIdHandle>
+            </AuthenticatedOnlyPage>,
     },
     {
         key: 'likes',
-        path: '/user/:id/library/likes',
-        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
+        path: '/:id/library/likes',
+        page: (props) => 
+            <AuthenticatedOnlyPage {...props}>
+                <PathWithIdHandle {...props}>
+                    <NotFoundPage />
+                </PathWithIdHandle>
+            </AuthenticatedOnlyPage>,
     },
     {
         key: 'readlater',
-        path: '/user/:id/library/readlater',
-        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
+        path: '/:id/library/readlater',
+        page: (props) => 
+            <AuthenticatedOnlyPage {...props}>
+                <PathWithIdHandle {...props}>
+                    <NotFoundPage />
+                </PathWithIdHandle>
+            </AuthenticatedOnlyPage>,
     },
     {
         key: 'library',
-        path: '/user/:id/library',
-        page: (props) => <AuthenticatedOnlyPage><NotFoundPage /></AuthenticatedOnlyPage>,
+        path: '/:id/library',
+        page: (props) => 
+            <AuthenticatedOnlyPage {...props}>
+                <PathWithIdHandle {...props}>
+                    <NotFoundPage />
+                </PathWithIdHandle>
+            </AuthenticatedOnlyPage>,
     },
     {
         key: 'login',
@@ -90,14 +135,32 @@ const routeItems = [
         path: '/registration',
         page: (props) => <RegistrationPage />
     },
-    {
-        key: 'article',
-        path: '/article',
-        page: (props) => <AuthenticatedOnlyPage><ArticlePage /></AuthenticatedOnlyPage>
-    }
 ]
 
-export const RouteHandle = (props) => {
+const AuthenticatedOnlyPage = (props) => {
+    let content = <></>
+    if (props.keycloak.authenticated)
+        content = <React.Fragment children={props.children}></React.Fragment>
+    else
+        content = <div>Only authorized users allowed to visit this page</div>
+    return content
+}
+
+const PathWithIdHandle = (props) => {
+    const path = props.history.location.pathname
+    const id = props.keycloak.profile?.username
+
+    if (path.indexOf(":id") != -1 && id) {
+        return <Redirect to={generatePath(path, { id })} />
+    }
+
+    return props.children
+}
+
+export const RouteHandle = () => {
+    const history = useHistory()
+    const { keycloak, initialized } = useKeycloak()
+    const props = { history: history, keycloak: keycloak }
     return(
     <Switch>
         {

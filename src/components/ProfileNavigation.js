@@ -6,42 +6,42 @@ var navigationItems = [
     {
         key: 'posts',
         text: 'My Posts',
-        path: '/user/:id/posts'
+        path: '/:id/posts'
     },
     {
         key: 'New post',
         text: 'New post',
-        path: '/article'
+        path: '/:id/article'
     },
     {
         key: 'messages',
         text: 'Messages',
-        path: '/user/:id/messages'
+        path: '/:id/messages'
     },
     {
         key: 'notifications',
         text: 'Notifications',
-        path: '/user/:id/notifications'
+        path: '/:id/notifications'
     },
     {
         key: 'subscriptions',
         text: 'Subscriptions',
-        path: '/user/:id/subscriptions'
+        path: '/:id/subscriptions'
     },
     {
         key: 'likes',
         text: 'Likes',
-        path: '/user/:id/likes'
+        path: '/:id/likes'
     },
     {
         key: 'readlater',
         text: 'Read later',
-        path: '/user/:id/readlater'
+        path: '/:id/readlater'
     },
     {
         key: 'library',
         text: 'Library',
-        path: '/user/:id/library'
+        path: '/:id/library'
     },
 ]
 

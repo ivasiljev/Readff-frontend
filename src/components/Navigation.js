@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../css/components/Navigation.module.css';
 
-import { NavButton } from '../elements/NavigationButton';
+import { NavButton } from './NavigationButton';
 
 const navItems = [
     {

@@ -11,16 +11,19 @@ export const MainSectionArticles = () => {
 
     if (!data.articlesInit) {
         ArticleService.getAllArticles().then((result) => {
-            setData({articlesInfo: result.data, articlesInit: true})
+            if (!data.articlesInit) setData({articlesInfo: result.data, articlesInit: true})
         }).catch(error => { 
-            setData({articlesInfo: {}, articlesInit: true})
+            if (!data.articlesInit) setData({articlesInfo: {}, articlesInit: true})
             console.log(error)
         })
     }
 
-    const content = (data.articlesInfo.map((article, id) => {
-        return <SmallArticle key={id} ArticleInfo={article} />
-    }));
+    let content = <React.Fragment></React.Fragment>
+    if (data.articlesInfo.length > 0) {
+        content = (data.articlesInfo.map((article, id) => {
+            return <SmallArticle key={id} ArticleInfo={article} />
+        }));
+    }
 
     return content;
 }

@@ -21,6 +21,8 @@ export const MainSectionNewArticle = (props) => {
     }
 
     const handleSubmit = (event) => {
+        event.preventDefault();
+
         ArticleService.postNewArticle(articleInfo, keycloak.token)
         .then(function (response) {
             console.log(response);
@@ -29,8 +31,6 @@ export const MainSectionNewArticle = (props) => {
         .catch(function (error) {
             console.log(error);
         });
-
-        event.preventDefault();
     }
 
     return (
